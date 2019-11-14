@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>XSSdemo</title>
+</head>
+<script>
+    eval(decodeURI(location.hash.substr(1)))
+</script>
+<body>
+</body>
+</html>
